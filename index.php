@@ -22,7 +22,7 @@ $text = $_POST["mes"];
 $post = $_POST["post"};
 if($post) {
 $write = fopen("./com.txt", "a+");
-fwrite=($write, "<u><b> $name</b></u><br>$text<br>");
+fwrite=($write, "<u><b> $name</b></u><br>$text<br></br>");
 fclose($write);
 $read = fopen("./com.txt", "r+t");
 echo "All comments:<br>";
